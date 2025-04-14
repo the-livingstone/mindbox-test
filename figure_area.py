@@ -40,6 +40,3 @@ class Area:
             return Decimal(pi) * a**2
         else:
             raise ValueError('Cannot calcucate area')
-        
-a = Area()
-print(a.calculate(2, 4, 5))
